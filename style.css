@@ -1,15 +1,27 @@
 body{
     margin: 0;
     padding: 0; 
-    background-color: purple;
+    background-color: rgb(236, 195, 106);
 }
 header, footer{
     width: 100%;
-    background-color: darkturquoise;
+    background-color: rgb(49, 111, 204);
 }
 header{
     height: 15vh;
 }
 footer{
     height: 5vh;
+}
+ .contPincipal{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1r 2fr;
+    gap: 5%;
+}
+h3{
+    font-size:30px;
+    font-family: 'Arial';
+    color: purple;
+    text-align: right;
 }
